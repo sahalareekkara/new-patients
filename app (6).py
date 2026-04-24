@@ -10,7 +10,7 @@ st.write("Enter the result details to predict healthy status.")
 
 try:
     # 2. Load the trained model
-    model = joblib.load('/content/Patients_Details.pkl')
+    model = joblib.load('Patients_Details.pkl')
 
     # 3. Create a Layout with Columns for User Input
     col1, col2, col3 = st.columns(3)
